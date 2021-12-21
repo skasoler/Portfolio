@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio design">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Design, Web, Development,UX,UI">
+    <meta name="author" content="Skandar Soler">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Contact Page</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-between border-bottom">
+        <a href="index.html" class="d-flex align-items-center me-md-auto">
+          <img src="img/logo soler final-02.png" alt="logo" width="150px">
+        </a>
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Web/App Design</a></li>
+                    <li><a class="dropdown-item" href="#">Web Development</a></li>
+                    <li><a class="dropdown-item" href="#">Translations EN-SP</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+<!-- Main -->
+<div class="container">
+    <form class="row g-3 py-5 d-flex justify-content-center ">
+      
+
+        <div class="row py-3 d-flex justify-content-center ">
+            <label for="inputName" class="col-sm-2 col-form-label text-center fw-bold">Name</label>
+            <div class="col-sm-5 ">
+              <input type="text" class="form-control" id="inputName" placeholder="John">
+            </div>
+        </div>
+
+        <div class="row py-3 d-flex justify-content-center">
+            <label for="inputLastName" class="col-sm-2 col-form-label text-center fw-bold"> Last Name</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="inputLastName" placeholder="Doe">
+            </div>
+        </div>
+
+        <div class="row py-3 d-flex justify-content-center ">
+            <label for="inputEmail" class="col-sm-2 col-form-label text-center fw-bold">Email</label>
+            <div class="col-sm-5">
+              <input type="email" class="form-control" id="inputEmail" placeholder="example@example.com">
+            </div>
+        </div>
+
+
+        <div class="row py-3 d-flex justify-content-center">
+            <label for="inputNumber" class="col-sm-2 col-form-label text-center fw-bold">Phone Number</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="inputNumber" placeholder="7784354700">
+            </div>
+        </div>
+
+        <div class="row py-3 d-flex justify-content-center">
+            <label for="inputAddress" class="col-sm-2 col-form-label text-center fw-bold">Address</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="inputAddress" placeholder="742 Evergreen">
+            </div>
+        </div>
+
+        <div class="row py-3 d-flex justify-content-center">
+            <label for="inputCity" class="col-sm-2 col-form-label text-center fw-bold">City</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="inputCity" placeholder="Vancouver">
+            </div>
+        </div>
+        <div class="row py-3 d-flex justify-content-center">
+            <label for="inputCountry" class="col-sm-2 col-form-label text-center fw-bold"> Country</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="inputCountry" placeholder="Canada">
+            </div>
+        </div>
+        <div class="row py-3 d-flex justify-content-center ">
+            <label for="inputMessage" class="col-sm-2 col-form-label text-center fw-bold textarea">Message</label>
+            <div class="col-sm-5">
+              <textarea type="text" class="form-control" id="inputMessage" placeholder="Your message here..."></textarea>
+            </div>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center">
+            <button type="submit" class="btn btn-dark">Send</button>
+        </div>
+
+    </form>
+</div>
+<!-- Footer -->
+<div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 col-xs-12 d-flex align-items-center justify-content-center ">
+              <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img src="img/logo soler final-02.png" width="80px">
+              </a>
+            </div>  
+    
+            <div class="col-md-4 col-xs-12">
+              <p class="text-muted justify-content-center text-center">&copy; Soler Design & Development Ltd.</p>
+              <p class="text-muted justify-content-center text-center">All rights reserved, 2021.</p>
+            </div>
+            
+            <ul class="nav col-md-4 col-xs-12 justify-content-center list-unstyled d-flex ">
+              <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/skasoler/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/skandar-soler/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="https://www.behance.net/skandarsolerm" target="_blank"><i class="fab fa-behance"></i></a></li>
+            </ul>
+          </footer> 
+</div>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    
+</body>
+    
+    
+</html>
+   
